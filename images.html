@@ -1,0 +1,72 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<html>
+<head>
+<link rel="stylesheet" href="style.css" type="text/css">
+<script type="text/javascript">
+<!--
+var image1=new Image()
+image1.src="IMG_6130.jpg"
+var image2=new Image()
+image2.src="IMG_6431.jpg"
+var image3=new Image()
+image3.src="IMG_5814.jpg"
+var image4=new Image()
+image4.src="IMG_4271.jpg"
+var image5=new Image()
+image5.src="IMG_4123.jpg"
+var image6=new Image()
+image6.src="IMG_4076.jpg"
+var image7=new Image()
+image7.src="IMG_6559.jpg"
+var image8=new Image()
+image8.src="IMG_4194.jpg"
+//-->
+</script>
+</head>
+
+
+</head>
+<body background="http://images4.alphacoders.com/438/43858.jpg">
+<div id="container">
+<div id="topbar"style="font-family:verdana;color:white;"><h1 style="font-family:verdana;color:#FF5721;"><center>The World Through My Eyes</center></h1>
+<center>
+I love taking pictures! I take my camera almost everywhere with me. Here are a few I've taken over the past few years. Don't click, they scroll!</center>
+</center>
+</div>
+<div id="navbar">
+<center>
+<a href="index.html">Home</a>&nbsp
+<a href="form.html">Feedback</a>&nbsp
+<a href="about.html">About</a>&nbsp 
+<a href = "mailto:rapte9@gatech.edu">Contact</a>&nbsp
+<a href = "images.html">Photography</a>&nbsp
+</center>
+</div><br>
+<center>
+<img src=="river.jpg" name="slide" width=650 height=400>
+
+<script>
+<!--
+//variable that will increment through the images
+var step=1
+function slideit(){
+//if browser does not support the image object, exit.
+if (!document.images)
+return
+document.images.slide.src=eval("image"+step+".src")
+if (step<8)
+step++
+else
+step=1
+//call function "slideit()" every 2 seconds
+setTimeout("slideit()",2000)
+}
+slideit()
+//-->
+</script>
+</center>
+</body><br>
+<div id="footer"><center>2014 copyright &copy; Rujuta Apte</center></div>
+</html>
+
